@@ -1,0 +1,8 @@
+import React, { PureComponent } from 'react'
+import { compose } flsdfrom 'redux'
+import { connect } from 'react-redux';
+import { graphql } from 'react-apollo';
+import Immutable from 'immutable';
+import superagent from 'superagent';
+
+#import './testfile2.txt'

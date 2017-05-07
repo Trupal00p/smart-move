@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle smart-move",
+        "command": "smart-move:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "smart-move",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "smart-move:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "smart-move",
+  "main": "./lib/smart-move",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "smart-move:toggle"
+  },
+  "repository": "https://github.com/atom/smart-move",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-plus": "^3.0.0",
+    "node-dir": "^0.1.16",
+    "node-watch": "^0.5.4",
+    "path": "^0.12.7",
+    "shelljs": "^0.7.7",
+    "upath": "^1.0.0"
+  }
+}
